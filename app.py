@@ -44,7 +44,7 @@ if page == "Classify Image":
 
         col1, col2 = st.columns([1, 2])
         with col1:
-            st.image(img, caption="Uploaded Image", use_column_width=True)
+            st.image(img, caption="Uploaded Image", use_container_width=True)
         with col2:
             st.subheader(f"**Predicted Class:** {class_labels[predicted_class]}")
             st.subheader(f"**Confidence:** {confidence:.2f}%")
