@@ -127,8 +127,8 @@ elif page == "About The Model":
     respectively, while the loss decreases significantly, indicating effective learning. 
     Overall, the model generalizes well, as reflected in the high test accuracy and low test loss, making it reliable for classifying mango leaf diseases.
     """)
-    st.image("assets\model_performance.png", caption="Model Accuracy and Loss During Training and Validation", width=600)
-    st.image("assets\model_eval.png", caption="Model Accuracy and Loss During Testing", width=600)
+    st.image("assets/model_performance.png", caption="Model Accuracy and Loss During Training and Validation", width=600)
+    st.image("assets/model_eval.png", caption="Model Accuracy and Loss During Testing", width=600)
 
     st.subheader("""
     3. **Confusion Matrix** 
