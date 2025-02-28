@@ -59,8 +59,8 @@ elif page == "About The Disease":
 
     Anthracnose is a disease caused by the fungus *Colletotrichum gloeosporioides*. 
     It is one of the diseases that affect mango leaves, flowers, and fruits. 
-    Symptoms of anthracnose on leaves include the appearance of gray or brown spots with dark edges. O
-    n mango fruits, the disease manifests as dark circular lesions, sometimes sunken, reaching a size of 4–5 cm. 
+    Symptoms of anthracnose on leaves include the appearance of gray or brown spots with dark edges. 
+    On mango fruits, the disease manifests as dark circular lesions, sometimes sunken, reaching a size of 4–5 cm. 
     This fungus is spread through rainwater and can develop in a relative humidity of around 95%.
     """)
     st.image("assets/anthracnose.jpg", caption="Mango Leaf with Anthracnose", width=300)
